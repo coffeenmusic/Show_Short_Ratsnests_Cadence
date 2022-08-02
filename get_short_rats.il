@@ -1,5 +1,5 @@
 ;--------------------------------------------------------------------
-;This script will turn off all ratsnests greater than 10mils.
+;This script will turn off all ratsnests greater than user input value
 ;This script is for Cadence Allegro software. Tested with Allegro 17.4
 ;Created by Stephen Thompson
 ;
@@ -39,7 +39,7 @@ axlCmdRegister( "get_short_rats" `get_short_rats)
 ;-------------------------------------
 procedure( get_short_rats()
 
-	MAX_RAT_LEN = 1000
+	MAX_RAT_LEN = atof(axlUIPrompt( "Please enter max rat length (mil)" "1000" ))
 	
 	axlUIWPrint(nil "Starting get_short_rats script.")
 	
@@ -57,9 +57,7 @@ procedure( get_short_rats()
 
 		if(ratLen > MAX_RAT_LEN then 
 			axlRatsnestBlank(rat->net)
-			;axlSubSelectObject(rat)
 		)
 	)
 
-	
 )
