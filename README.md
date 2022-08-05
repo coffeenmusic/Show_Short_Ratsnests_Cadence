@@ -2,6 +2,8 @@
 This script will turn off all ratsnests greater than user input value [mils].
 When run, it will pop up with user input GUI.
 
+![GUI Screenshot](gui.jpg)
+
 # Installation
 If your Cadence installation directory is `c:\Cadence\SPB_17.4\` then copy this file into: `c:\Cadence\SPB_17.4\share\local\pcb\skill\`
 
@@ -13,6 +15,11 @@ If you would like to automatically load this script by your Allegro when it star
 1) Go to: `c:\Cadence\SPB_17.4\share\local\pcb\skill\`
 2) Copy and rename "example.ilinit" to "allegro.ilinit" in to skill directory.
 3) Copy "get_short_rats.il" to `c:\Cadence\SPB_17.4\share\local\pcb\skill\`
+4) restart or launch PCBEditor
+
+# Manually Loading Script
+1) Run Skill: `skill`
+2) Load Script: `load("get_short_rats.il")`
 
 # References
 https://github.com/FEDEVEL/allegro-script-add_layer_name
