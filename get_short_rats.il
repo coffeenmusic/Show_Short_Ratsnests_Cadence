@@ -24,7 +24,7 @@
 ;NOTE
 ;If you would like to automatically load this script by your Allegro when it starts, do following:
 ;1) Go to: c:\Cadence\SPB_17.4\share\local\pcb\skill\
-;2) Copy "example.ilinit" into "allegro.ilinit"
+;2) Copy and rename "example.ilinit" to "allegro.ilinit" in to skill directory.
 ;3) Copy "get_short_rats.il" to c:\Cadence\SPB_17.4\share\local\pcb\skill\
 
 ;----------------------------- THE SCRIPT ---------------------------------------
