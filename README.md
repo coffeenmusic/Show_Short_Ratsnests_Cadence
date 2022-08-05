@@ -8,7 +8,8 @@ When run, it will pop up with user input GUI.
 If your Cadence installation directory is `c:\Cadence\SPB_17.4\` then copy this file into: `c:\Cadence\SPB_17.4\share\local\pcb\skill\`
 
 # How to run the script
-1) Run following command in Cadence Allegro command line: `get_short_rats`
+1) Turn on all rats.
+2) Run following command in Cadence Allegro command line: `get_short_rats`
 
 # Automatically Loading Scripts in Cadence
 If you would like to automatically load this script by your Allegro when it starts, do following:
